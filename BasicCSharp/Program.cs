@@ -35,7 +35,6 @@ namespace BasicCSharp
             radius = Convert.ToDouble(Console.ReadLine());
             area = pi * radius * radius;
             Console.WriteLine("Area = {0}", area);
-            */
 
             //*****************************************************************************************
             //IFS AND LOOPS
@@ -55,6 +54,23 @@ namespace BasicCSharp
             }
 
 
+            //*****************************************************************************************
+            //FOR LOOP WITH NESTED IF
+            int number = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= number; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.Write("*");
+                }
+                else
+                {
+                    Console.Write(i);
+                }
+            }
+
+            */
 
         }
     }
