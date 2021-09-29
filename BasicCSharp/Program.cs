@@ -36,6 +36,26 @@ namespace BasicCSharp
             area = pi * radius * radius;
             Console.WriteLine("Area = {0}", area);
             */
+
+            //*****************************************************************************************
+            //IFS AND LOOPS
+            int x = 4;
+            int y = 7;
+            Console.WriteLine("Int 1 = ");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Int 2 = ");
+            y = Convert.ToInt32(Console.ReadLine());
+            if (x > y)
+            {
+                Console.Write("{0} is greater than {1}", x, y);
+            }
+            else
+            {
+                Console.Write("{0} is NOT greater than {1}", x, y);
+            }
+
+
+
         }
     }
 }
